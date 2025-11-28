@@ -1,0 +1,21 @@
+/* Text-align */
+
+h1{
+    text-align: center;        /*in center the heading sift in center*/
+}
+
+
+
+h2{
+    text-align:left;           /* in the place of left we also use "start"*/
+}
+
+
+h3{
+    text-align:right;         /* in the place of right we also use "end"*/
+}
+
+
+p{
+    text-align:justify;       /*in the justify the paragraph arrange in systematic way or in same horizontal line */
+}
