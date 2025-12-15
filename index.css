@@ -1,0 +1,119 @@
+/* Universal */
+*{
+    font-family:'Gill Sans';
+}
+
+/* Element Selector */
+h1,h3{
+    color:#b92b27;
+}
+
+/* ID Selector */
+#login{
+    background-color:white;
+}
+
+#signup{
+    background-color:#b92b27;
+    color:white;
+}
+
+/* Class Selector */
+.upvote {
+    background-color:green;
+    color:aliceblue;
+}
+
+/* descendant selector */
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+
+nav a{
+    color:hotpink;
+}
+
+/* Adjacent Sibling Comninator */
+p + h3 {
+      text-decoration:underline;
+}
+
+.upvote + button{
+    background-color:cornflowerblue;
+    color:darkblue;
+}
+
+/* Child Combinator */
+div > input{
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color:red;
+}
+
+input[type="password"]{
+    color:blue;
+}
+
+input[type]{
+    background-color:antiquewhite;
+}
+
+
+/* Pseudo Class */
+button:hover {
+    color:white;
+    background-color: black;
+}
+                                      /* hover */
+h3:hover{
+    text-decoration: overline;      
+}
+
+button:active{
+    background-color:hotpink;
+    color: black;
+}
+                                       /* active */
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+ input[type="radio"]:checked + label{
+    font-weight:bold;                         /* checked */
+    color:red;
+}
+
+div:nth-of-type(2n){
+    background-color:blanchedalmond;         /* nth-of-type */
+
+}
+
+
+/* Pseudo Elements */
+h1::first-letter{
+     color:green;              /* ::first-letter */ 
+}
+
+.mypage::first-line{
+    color:blue                 /* ::first-line */
+}
+
+.mypage::selection{
+    color:rgb(68, 237, 237)        /* selection */ 
+}
+
+
+/* Cascade in CSS */
+h3{
+    color:black;
+}
+                         /* jo baad me declare hota hai usi ka cascading hota hai
+                         when elements are same */
+h3{
+    color: #b92b27;
+}
