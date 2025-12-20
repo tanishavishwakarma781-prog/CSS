@@ -1,0 +1,31 @@
+div {
+    height: 300px; 
+    width: 500px; 
+    background-color:pink ;
+    border-width:1px;
+    border-color:black;
+    /* or border shorthand */   
+    border:5px solid black;       /* width|style|color */
+}
+   
+/* border side */
+h1{
+    border-width :2px;
+    border-style:dashed;
+    border-color:purple;
+
+}
+
+
+div{
+      border-style:dashed;
+      border-left-color:blue;
+      border-right-color:blue;
+    }
+
+
+/* border radius */
+div{
+    border-radius:15px;
+    border-radius: 5%;
+}
