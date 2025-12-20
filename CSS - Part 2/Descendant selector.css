@@ -1,0 +1,16 @@
+.a{
+    color:indigo;
+}
+                        /* while giving the class */
+.pre{
+    color: deeppink;
+}
+
+
+div p{
+    color:darkred;
+}
+                          /* without class */
+div ul li{
+    color:chocolate;
+}

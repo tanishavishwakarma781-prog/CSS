@@ -1,0 +1,14 @@
+input[type="text"]{
+    color:rgb(255, 34, 0);
+}
+
+input[type="password"]{
+    color:darkblue
+}
+
+input[type]{
+    background-color:antiquewhite;
+}
+
+/* shows the color when we type something inside the box */
+/* more attributes we can also use by mdn */
