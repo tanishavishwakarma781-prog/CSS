@@ -1,0 +1,20 @@
+h1{
+    border:2px solid black;
+    width:22%;
+}
+
+
+#inner{
+    height:50px;
+    width:50px;
+    background-color:saddlebrown;
+    margin-left:10%;
+}
+
+
+#outer{
+    height:100px;
+    width:100px;
+    background-color:chocolate;
+    margin:50px;
+}
