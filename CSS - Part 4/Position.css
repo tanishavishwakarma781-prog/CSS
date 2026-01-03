@@ -1,0 +1,41 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    margin:20px;
+    text-align: center;
+    display:inline-block;
+    border: 3px solid black;
+}
+
+
+#static{
+   background-color: chartreuse;
+   position: static;                         /* static */
+   top:100px;                         
+   left:100px;
+}
+
+
+#relative{
+   background-color: chartreuse;
+   position: relative;                      /* relative */
+   top:100px;
+   left:100px;
+}
+
+
+#absolute{
+   background-color: chartreuse;        
+   position: absolute;                     /* absolute */
+   top:100px;
+   left:100px;
+}
+
+
+#fixed{
+   background-color: chartreuse;        
+   position: fixed;                     /* fixed */
+   top:100px;
+   left:100px;
+}

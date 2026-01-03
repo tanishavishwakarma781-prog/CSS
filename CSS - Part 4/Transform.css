@@ -1,0 +1,50 @@
+section{
+    margin-top:100px;
+}
+
+
+div{
+    height:50px;
+    width:200px;
+    border:2px solid black;
+    text-align:center;
+    background-color:aquamarine;
+    margin:10px auto;
+}
+
+
+div:nth-of-type(2n){
+    background-color:aqua
+}
+
+
+div:nth-of-type(3n){
+    background-color:lightskyblue;
+}
+
+
+/* Transform */
+
+#one{
+    transform:rotate(180deg);            /* rotate */
+}
+
+#two{
+    transform:scale(0.5,1);             /* scale */
+}
+
+#three{
+
+    transform:translate(-100px,10px);       /* tranlate */  
+                                         
+}
+
+#four{
+    transform:skew(30deg);                  /* skew */
+}
+
+#five{
+    transform:rotate(30deg) scale(0.5) translate(50px) skew(35deg);
+}
+
+
